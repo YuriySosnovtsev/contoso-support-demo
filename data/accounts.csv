@@ -1,0 +1,16 @@
+accountnumber,name,service_tier,segment
+ACC001,Northwind Homes,Premium,Enterprise
+ACC002,Fabrikam Installers,Partner,Consumer group
+ACC003,Adventure Lofts,Standard,Consumer group
+ACC004,Tailspin Solar,Premium,Enterprise
+ACC005,Lucerne Estates,Partner,Installer
+ACC006,Woodgrove Retrofit,Standard,Consumer group
+ACC007,Litware Properties,Premium,Consumer group
+ACC008,Proseware Energy,Partner,Consumer group
+ACC009,Alpine Ski House,Standard,Enterprise
+ACC010,Coho Apartments,Premium,Consumer group
+ACC011,Wingtip Builders,Partner,Enterprise
+ACC012,Fourth Coffee Chain,Standard,Enterprise
+ACC013,Graphic Design Studio,Premium,Enterprise
+ACC014,Blue Yonder Flats,Partner,Consumer group
+ACC015,VanArsdel Towers,Standard,Enterprise

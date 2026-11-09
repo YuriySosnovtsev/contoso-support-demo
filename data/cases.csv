@@ -1,0 +1,61 @@
+ticketnumber,title,accountnumber,contactnumber,origin,priority,created
+CAS-0001,Firmware update stuck at 80%,ACC008,CON020,Phone,High,2026-10-09
+CAS-0002,Inverter shows error code E-21,ACC004,CON010,Web,Low,2026-10-05
+CAS-0003,App cannot pair with device,ACC001,CON001,Phone,Normal,2026-10-02
+CAS-0004,Thermostat will not connect to Wi-Fi,ACC004,CON008,Web,Normal,2026-09-16
+CAS-0005,Thermostat will not connect to Wi-Fi,ACC006,CON016,Phone,Low,2026-09-06
+CAS-0006,Firmware update stuck at 80%,ACC012,CON032,Email,High,2026-10-20
+CAS-0007,Inverter shows error code E-21,ACC004,CON009,Phone,Normal,2026-10-31
+CAS-0008,App cannot pair with device,ACC005,CON011,Web,High,2026-10-26
+CAS-0009,App cannot pair with device,ACC011,CON028,Email,High,2026-10-19
+CAS-0010,Firmware update stuck at 80%,ACC005,CON013,Phone,Normal,2026-09-26
+CAS-0011,Firmware update stuck at 80%,ACC015,CON042,Web,Normal,2026-10-28
+CAS-0012,App cannot pair with device,ACC011,CON029,Email,Low,2026-09-15
+CAS-0013,Thermostat will not connect to Wi-Fi,ACC009,CON022,Email,High,2026-10-06
+CAS-0014,Inverter shows error code E-21,ACC014,CON038,Email,Low,2026-09-05
+CAS-0015,Firmware update stuck at 80%,ACC014,CON041,Email,Low,2026-09-05
+CAS-0016,Thermostat will not connect to Wi-Fi,ACC009,CON022,Email,High,2026-09-16
+CAS-0017,Warranty replacement request,ACC015,CON043,Web,Low,2026-10-05
+CAS-0018,Inverter shows error code E-21,ACC013,CON037,Phone,Normal,2026-09-16
+CAS-0019,Complaint about installation,ACC010,CON027,Email,Low,2026-09-07
+CAS-0020,Firmware update stuck at 80%,ACC011,CON028,Web,Normal,2026-09-27
+CAS-0021,Complaint about installation,ACC002,CON004,Phone,High,2026-10-12
+CAS-0022,Thermostat will not connect to Wi-Fi,ACC002,CON004,Web,High,2026-09-22
+CAS-0023,Thermostat will not connect to Wi-Fi,ACC006,CON016,Email,Low,2026-10-05
+CAS-0024,Complaint about installation,ACC004,CON009,Web,Low,2026-09-18
+CAS-0025,Complaint about installation,ACC006,CON016,Email,Normal,2026-10-22
+CAS-0026,App cannot pair with device,ACC003,CON007,Email,High,2026-10-05
+CAS-0027,Thermostat will not connect to Wi-Fi,ACC003,CON006,Email,Low,2026-09-27
+CAS-0028,Complaint about installation,ACC011,CON031,Email,Normal,2026-10-28
+CAS-0029,Thermostat will not connect to Wi-Fi,ACC005,CON011,Web,Low,2026-09-25
+CAS-0030,Warranty replacement request,ACC011,CON030,Web,Normal,2026-10-15
+CAS-0031,Firmware update stuck at 80%,ACC013,CON036,Phone,High,2026-10-02
+CAS-0032,Inverter shows error code E-21,ACC005,CON013,Web,Low,2026-09-04
+CAS-0033,App cannot pair with device,ACC012,CON035,Email,High,2026-09-21
+CAS-0034,Thermostat will not connect to Wi-Fi,ACC002,CON004,Phone,Normal,2026-10-03
+CAS-0035,App cannot pair with device,ACC005,CON011,Email,High,2026-09-06
+CAS-0036,Inverter shows error code E-21,ACC002,CON005,Phone,Low,2026-10-14
+CAS-0037,Inverter shows error code E-21,ACC010,CON026,Email,High,2026-09-16
+CAS-0038,App cannot pair with device,ACC014,CON039,Email,High,2026-09-06
+CAS-0039,Complaint about installation,ACC015,CON043,Phone,High,2026-10-04
+CAS-0040,Warranty replacement request,ACC007,CON017,Email,High,2026-10-16
+CAS-0041,Warranty replacement request,ACC006,CON016,Web,Normal,2026-09-09
+CAS-0042,Firmware update stuck at 80%,ACC015,CON042,Web,Normal,2026-09-21
+CAS-0043,Thermostat will not connect to Wi-Fi,ACC001,CON001,Web,High,2026-10-07
+CAS-0044,Thermostat will not connect to Wi-Fi,ACC002,CON005,Phone,Low,2026-10-03
+CAS-0045,Warranty replacement request,ACC004,CON009,Web,Low,2026-10-27
+CAS-0046,Inverter shows error code E-21,ACC010,CON024,Web,Low,2026-09-29
+CAS-0047,App cannot pair with device,ACC008,CON020,Phone,High,2026-10-04
+CAS-0048,Thermostat will not connect to Wi-Fi,ACC015,CON043,Phone,Normal,2026-10-30
+CAS-0049,Firmware update stuck at 80%,ACC003,CON007,Email,Normal,2026-09-08
+CAS-0050,Thermostat will not connect to Wi-Fi,ACC013,CON036,Email,Normal,2026-09-19
+CAS-0051,App cannot pair with device,ACC005,CON014,Phone,Normal,2026-09-14
+CAS-0052,Firmware update stuck at 80%,ACC014,CON041,Web,High,2026-10-02
+CAS-0053,Warranty replacement request,ACC002,CON004,Email,High,2026-09-28
+CAS-0054,Warranty replacement request,ACC001,CON003,Email,Normal,2026-10-20
+CAS-0055,Inverter shows error code E-21,ACC014,CON041,Web,Low,2026-10-18
+CAS-0056,Complaint about installation,ACC013,CON036,Phone,Normal,2026-10-06
+CAS-0057,Thermostat will not connect to Wi-Fi,ACC004,CON008,Email,High,2026-10-28
+CAS-0058,Inverter shows error code E-21,ACC012,CON035,Email,Normal,2026-10-08
+CAS-0059,App cannot pair with device,ACC004,CON010,Web,Low,2026-09-03
+CAS-0060,Warranty replacement request,ACC010,CON024,Email,Normal,2026-09-14

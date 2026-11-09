@@ -1,0 +1,14 @@
+.env
+*.env
+*.pfx
+*.key
+*.zip
+*.bak
+.pac/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+# generated data is committed deliberately; local scratch is not
+data/_scratch/
+screenshots/_raw/
