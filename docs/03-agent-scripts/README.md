@@ -105,7 +105,10 @@ Verified in Customer Service workspace: opening a case shows the Agent scripts p
 | | |
 |---|---|
 | Script steps in the admin center (Text, Macro, Script) | ![Script steps](../../screenshots/03-agent-scripts/02-script-steps.png) |
-| Macro `Create follow-up task` | ![Macro](../../screenshots/03-agent-scripts/03-macro-follow-up.png) |
+| Macro `Create follow-up task`, first version: only `subject` and `regardingobjectid` (this is the broken configuration) | ![Macro, first version](../../screenshots/03-agent-scripts/03-macro-follow-up.png) |
+| Task form from the first version: Regarding shows "(No Name)" with an account icon | ![Regarding error](../../screenshots/03-agent-scripts/20-macro-regarding-error.png) |
+| Error when the Regarding link is opened: Entity 'account' With Id = ... Does Not Exist | ![Error dialog](../../screenshots/03-agent-scripts/20b-macro-regarding-error-dialog.png) |
+| Macro `Create follow-up task`, fixed: id, type and name for Regarding (4 attributes) | ![Macro, fixed](../../screenshots/03-agent-scripts/21-macro-follow-up-fixed.png) |
 | Task form opened by the macro, with Subject and Regarding filled | ![Task form](../../screenshots/03-agent-scripts/08-macro-task-form.png) |
 | Default script condition | ![Expression builder](../../screenshots/03-agent-scripts/04-expression-builder.png) |
 | Script in the Agent scripts pane | ![Script pane](../../screenshots/03-agent-scripts/05-script-pane-wifi.png) |
