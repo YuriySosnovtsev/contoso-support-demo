@@ -10,7 +10,7 @@ Find out which Copilot-based agent features run on the demo environment without 
 |---|---|---|
 | Case summary | Card on the case form | Works |
 | Copilot help pane (Ask a question) | Copilot pane next to the case | Opens, but every question returned "There's no answer related to your question" |
-| Smart assist | Productivity pane | Not shown on a case record |
+| Smart assist | Productivity pane | Nothing shown on a case; by design (see below) |
 | Similar cases | Case > Related > Similar Cases | Not tested yet |
 
 ## Case summary
@@ -31,12 +31,20 @@ Result: the pane opened, but three questions ("Summarize this case", "How do I f
 ![Copilot help pane](../../screenshots/06-copilot-features/02-copilot-help-pane-no-answer.png)
 
 ## Smart assist
-The experience profile has Smart assist On, but no Smart assist tab appears in the Productivity pane on a case. Learn describes Smart assist as suggestions for knowledge articles and similar cases during conversations (chat, voice, SMS); the productivity-tools page says it works across channels "except entity records". So on a case record the effect is expected, not a setup error.
+The experience profile has Smart assist On, but no Smart assist content appears in the Productivity pane on a case. This is not a trial limit. Microsoft Learn (Manage smart assist) says:
+- the case and knowledge suggestions in smart assist are not supported starting 2 June 2025 (see deprecations in Customer Service);
+- smart assist now shows recommendations from your own agent built with Azure Bot Service, in conversation channels such as chat, SMS and Facebook, excluding the Entity Records channel (case forms);
+- Copilot Studio agents are not supported as smart assist agents, and recommendations appear only after the representative sends a message.
+
+So the toggle in the experience profile does not give AI suggestions for cases any more. Use the Knowledge search pane (see [05-knowledge-base](../05-knowledge-base/README.md)) and Similar cases instead.
+
+Separately, the Insights settings page in Copilot Service admin center shows "Insights settings are unavailable. The free trial and air gapped organizations do not have access to the insights settings." Insights-based features cannot be configured in a trial.
 
 ## Gotchas
 - Case summary needs enough text in the case fields (about 38 English words); cases with an empty description get no summary.
 - A working Case summary does not mean the Copilot help pane works: the two are separate settings and the pane returned no answers here.
-- Smart assist is for conversations, not for case forms.
+- Smart assist no longer suggests knowledge articles or similar cases (deprecated 2 June 2025); it only shows recommendations from a custom bot in conversation channels. Do not build a post around it for case forms.
+- Insights settings are not available in a free trial.
 - Do not promise these features to readers without checking licences and capacity in their own tenant.
 
 ## Links
@@ -45,5 +53,6 @@ The experience profile has Smart assist On, but no Smart assist tab appears in t
 - https://learn.microsoft.com/dynamics365/customer-service/administer/configure-copilot-features
 - https://learn.microsoft.com/dynamics365/customer-service/use/oc-view-ai-suggested-cases-articles
 - https://learn.microsoft.com/dynamics365/customer-service/administer/productivity-tools
+- https://learn.microsoft.com/dynamics365/customer-service/administer/smart-assist
 
 _Verified on: 2026-11-20 (live trial; Learn pages above)_

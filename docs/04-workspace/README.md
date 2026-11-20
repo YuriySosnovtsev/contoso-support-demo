@@ -43,6 +43,7 @@ Tested on 2026-11-18: a case opens in its own session; the tab shows the ticket 
 ## Gotchas
 - A user can belong to only one experience profile. If Add users shows "No users found", the user is probably already in another profile (for example a default one): remove them there first. The "Include users without role assignment" box lists users without a role, which is a different problem.
 - Default experience profiles cannot be edited; create your own.
+- Smart assist can be On in the profile, but it no longer suggests knowledge articles or similar cases on a case; see [06-copilot-features](../06-copilot-features/README.md).
 - This trial has no "Case handling time" toggle in the Productivity pane list; only the tools in the screenshot are available.
 - Session templates are read when the session starts. After changing a template or profile, refresh the browser and reopen the case.
 - The Title field uses single braces: `{anchor.ticketnumber}`. Scripts and macros use `${anchor.<attribute>}`.
